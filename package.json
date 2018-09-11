@@ -7,7 +7,9 @@
     "build/"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "sass src/ashish-css.scss:dist/ashish-css.css",
+    "build-min": "sass src/ashish-css.scss:dist/ashish-css.min.css --style=compressed",
+    "test": "npm run build & npm run build-min"
   },
   "repository": {
     "type": "git",
