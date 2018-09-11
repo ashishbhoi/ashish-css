@@ -1,0 +1,30 @@
+{
+  "name": "ashish-css",
+  "version": "1.0.0",
+  "description": "Pakage to use in my personal projects",
+  "main": "build/main.css",
+  "files": [
+    "build/"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashishkumarbhoi/ashish-css.git"
+  },
+  "keywords": [
+    "css",
+    "scss",
+    "ashish"
+  ],
+  "author": "Ashish Kumar Bhoi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashishkumarbhoi/ashish-css/issues"
+  },
+  "homepage": "https://github.com/ashishkumarbhoi/ashish-css#readme",
+  "devDependencies": {
+    "sass": "^1.13.2"
+  }
+}
